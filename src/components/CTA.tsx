@@ -8,7 +8,10 @@ const calistoga = Calistoga({
 });
 export default function CTA() {
 	return (
-		<div className="w-full flex items-center justify-center border-t ">
+		<div
+			id="cta"
+			className="w-full flex items-center justify-center border-t "
+		>
 			<div className="container flex flex-col items-center gap-10 p-10 lg:p-20">
 				<h2
 					className={`${calistoga.className} flex flex-col text-[2.5rem]  w-full max-w-[600px] text-balance text-center  leading-tight text-neutral-800 `}
@@ -17,7 +20,8 @@ export default function CTA() {
 				</h2>
 				<div className="h-full flex gap-5">
 					<Link
-						href={"/"}
+						href={"https://github.com/procode3/taabs"}
+						target="_blank"
 						className="group text-neutral-100 flex items-center gap-1 border border-transparent  max-w-[220px] rounded-xl py-3 px-6 hover:border-orange-400 hover:bg-[#172554] bg-orange-400 hover:text-neutral-100 transition-all duration-300 ease-in font-[500]"
 					>
 						Install Taabs

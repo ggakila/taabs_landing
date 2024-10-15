@@ -30,8 +30,8 @@ const comfortaa = Comfortaa({
 const sheets = [
 	{ href: "/", name: "Home" },
 	{ href: "/#features", name: "Features" },
-	{ href: "/#howitworks", name: "How it Works" },
-	{ href: "/#install", name: "Install Taabs" },
+	{ href: "/#install", name: "How to Install" },
+	{ href: "/#cta", name: "Try Taabs" },
 	{ href: "/#demo", name: "Demo" },
 ];
 
@@ -74,11 +74,12 @@ export default function Header() {
 		>
 			<div className="container lg:px-20 p-5 flex w-full justify-between items-center">
 				<div className="flex justify-center text-[16px] text-neutral-100  tracking-tighter font-bold">
-					<h1
+					<Link
+					href="/"
 						className={`${comfortaa.className} font-[500] tracking-tight text-[1.5rem] md:text-[2rem]`}
 					>
 						Taabs
-					</h1>
+					</Link>
 				</div>
 				<div className="flex gap-5 items-center">
 					<div className="hidden w-full md:flex bg-white/10 py-2 px-3 md:px-5 rounded-xl justify-between items-center text-[1rem] leading-[17px] gap-5 text-white/50 font-500">
@@ -89,10 +90,10 @@ export default function Header() {
 							Features
 						</Link>
 						<Link
-							href="/#howitworks"
+							href="/#install"
 							className="relative py-2 md:py-3 px-2 text-neutral-100 h-full whitespace-nowrap w-full bg-transparent transition-all duration-400 hover:text-white before:absolute before:left-0 before:bottom-0 before:h-[2px] before:bg-orange-400 before:w-full before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100"
 						>
-							How it Works
+							How to Install
 						</Link>
 						{/* <Link
 							href="/#about"
@@ -101,10 +102,10 @@ export default function Header() {
 							About
 						</Link> */}
 						<Link
-							href="/#install"
+							href="/#cta"
 							className="relative py-2 md:py-3 px-2 text-neutral-100 h-full whitespace-nowrap w-full bg-transparent transition-all duration-400 hover:text-white before:absolute before:left-0 before:bottom-0 before:h-[2px] before:bg-orange-400 before:w-full before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100"
 						>
-							Install Taabs
+							Try Taabs
 						</Link>
 						<Link
 							href="/#demo"

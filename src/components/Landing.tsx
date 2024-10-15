@@ -31,7 +31,8 @@ export default function Landing() {
 					</div>
 					<div className="z-10 w-full h-full flex gap-5 items-end">
 						<Link
-							href={"/"}
+							href={"https://github.com/procode3/taabs"}
+							target="_blank"
 							className="group text-neutral-100 flex items-center gap-1 border border-transparent  max-w-[220px] rounded-xl py-3 px-6 hover:border-orange-400 hover:bg-[#172554] bg-orange-400 hover:text-neutral-100 transition-all duration-300 ease-in font-[500]"
 						>
 							Install Taabs
@@ -57,11 +58,41 @@ export default function Landing() {
 					</div>
 
 					{/* Main Content */}
-					<div className="relative z-10 bg-white h-[30vh] w-full rounded-xl"></div>
+					<div className="w-full">
+						<div className="relative aspect-video rounded-xl overflow-hidden">
+							<Image
+								src="/herogroup.png"
+								alt="Taabs Installation guide"
+								fill
+								style={{ objectFit: "cover" }}
+								className="w-full h-full"
+							/>
+						</div>
+					</div>
 
 					<div className="relative z-10 w-full h-full flex flex-col gap-5">
-						<div className="bg-white h-[30vh] w-full rounded-xl"></div>
-						<div className="bg-white h-[30vh] w-full rounded-xl"></div>
+						<div className="w-full">
+							<div className="relative aspect-video rounded-xl overflow-hidden">
+								<Image
+									src="/lazyload.png"
+									alt="Taabs Installation guide"
+									fill
+									style={{ objectFit: "cover" }}
+									className="w-full h-full"
+								/>
+							</div>
+						</div>
+						<div className="w-full">
+							<div className="relative aspect-video rounded-xl overflow-hidden">
+								<Image
+									src="/load.png"
+									alt="Taabs Installation guide"
+									fill
+									style={{ objectFit: "cover" }}
+									className="w-full h-full"
+								/>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

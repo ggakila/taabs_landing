@@ -23,32 +23,32 @@ export default function InstallTaabs() {
 				</p>
 			</div>
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-				<div className="flex flex-col gap-3">
-					<div className="relative aspect-video rounded-xl overflow-hidden">
+				<div className="flex flex-col gap-5">
+					<div className="relative aspect-video rounded-xl overflow-hidden shadow-md">
 						<Image
-							src="/trial.png"
+							src="/clone.png"
 							alt="Taabs Installation guide"
 							fill
 							style={{ objectFit: "cover" }}
 						/>
 					</div>
-					<h3 className="text-[1.3rem] font-medium tracking-tighter">
+					<h3 className="text-[1.1rem] font-semibold tracking-tighter">
 						Step 1: Install the Extension from Chrome Web Store
 					</h3>
 					<p className="tracking-tight">
 						Clone the Taabs repository to obtain the extension files
 					</p>
 				</div>
-				<div className="flex flex-col gap-3">
-					<div className="relative aspect-video rounded-xl overflow-hidden">
+				<div className="flex flex-col gap-5">
+					<div className="relative aspect-video rounded-xl overflow-hidden shadow-md">
 						<Image
-							src="/trial.png"
+							src="/load.png"
 							alt="Taabs Installation guide"
 							fill
 							style={{ objectFit: "cover" }}
 						/>
 					</div>
-					<h3 className="text-[1.3rem] font-medium tracking-tighter">
+					<h3 className="text-[1.1rem] font-semibold tracking-tighter">
 						Step 2: Add Taabs to Your Browser
 					</h3>
 					<p className="tracking-tight">
@@ -56,16 +56,16 @@ export default function InstallTaabs() {
 						extension.
 					</p>
 				</div>
-				<div className="flex flex-col gap-3">
-					<div className="relative aspect-video rounded-xl overflow-hidden">
+				<div className="flex flex-col gap-5">
+					<div className="relative aspect-video rounded-xl overflow-hidden shadow-md">
 						<Image
-							src="/trial.png"
+							src="/lazyload.png"
 							alt="Taabs Installation guide"
 							fill
 							style={{ objectFit: "cover" }}
 						/>
 					</div>
-					<h3 className="text-[1.3rem] font-medium tracking-tighter">
+					<h3 className="text-[1.1rem] font-semibold tracking-tighter">
 						Step 3: Switch on Lazy Loading and enhance your browser experience
 					</h3>
 					<p className="tracking-tight">
