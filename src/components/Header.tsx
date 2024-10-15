@@ -75,7 +75,7 @@ export default function Header() {
 			<div className="container lg:px-20 p-5 flex w-full justify-between items-center">
 				<div className="flex justify-center text-[16px] text-neutral-100  tracking-tighter font-bold">
 					<Link
-					href="/"
+						href="/"
 						className={`${comfortaa.className} font-[500] tracking-tight text-[1.5rem] md:text-[2rem]`}
 					>
 						Taabs
@@ -108,7 +108,8 @@ export default function Header() {
 							Try Taabs
 						</Link>
 						<Link
-							href="/#demo"
+							href="https://www.youtube.com/watch?v=xSujiSkGHfg"
+							target="_blank"
 							className="relative py-2 md:py-3 px-2 text-neutral-100 h-full whitespace-nowrap w-full bg-transparent transition-all duration-400 hover:text-white before:absolute before:left-0 before:bottom-0 before:h-[2px] before:bg-orange-400 before:w-full before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100"
 						>
 							Watch Demo

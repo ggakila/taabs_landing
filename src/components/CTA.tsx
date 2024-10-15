@@ -27,7 +27,8 @@ export default function CTA() {
 						Install Taabs
 					</Link>
 					<Link
-						href={"/"}
+						href={"https://www.youtube.com/watch?v=xSujiSkGHfg"}
+						target="_blank"
 						className="group text-neutral-100 flex items-center gap-1 border border-orange-400 max-w-[220px] rounded-xl py-3 px-6 bg-[#172554] hover:bg-orange-400 hover:text-neutral-100 transition-all duration-300 ease-in font-[500]"
 					>
 						Watch Demo

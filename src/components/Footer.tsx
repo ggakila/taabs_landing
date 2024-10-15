@@ -29,19 +29,12 @@ export default function Footer() {
 						<div className="flex flex-col gap-3  items-start text-start">
 							<h3 className="font-semibold text-orange-400">Connect With Us</h3>
 							<div className="flex flex-col gap-2">
-								<Link
-									href="https://www.facebook.com"
-									className="relative group"
-								>
-									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300  before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-yellow-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
-										Facebook
-									</span>
-								</Link>
+								
 								<Link
 									href="https://www.twitter.com"
 									className="relative group"
 								>
-									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300  before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-yellow-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
+									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300  before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
 										Twitter
 									</span>
 								</Link>
@@ -49,7 +42,7 @@ export default function Footer() {
 									href="https://www.instagram.com"
 									className="relative group"
 								>
-									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300  before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-yellow-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
+									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300  before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
 										Instagram
 									</span>
 								</Link>
@@ -57,7 +50,7 @@ export default function Footer() {
 									href="https://www.linkedin.com"
 									className="relative group"
 								>
-									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300  before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-yellow-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
+									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300  before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
 										LinkedIn
 									</span>
 								</Link>
@@ -65,7 +58,7 @@ export default function Footer() {
 									href="https://www.youtube.com"
 									className="relative group"
 								>
-									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300  before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-yellow-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
+									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300  before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
 										YouTube
 									</span>
 								</Link>
@@ -81,7 +74,7 @@ export default function Footer() {
 									href="/"
 									className="relative group"
 								>
-									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300 before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-yellow-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
+									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300 before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
 										Home
 									</span>
 								</Link>
@@ -89,32 +82,24 @@ export default function Footer() {
 									href="/#features"
 									className="relative group"
 								>
-									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300 before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-yellow-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
+									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300 before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
 										Features
 									</span>
 								</Link>
 								<Link
-									href="/#howitworks"
+									href="/#install"
 									className="relative group"
 								>
-									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300 before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-yellow-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
-										How it Works
+									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300 before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
+										How to Install
 									</span>
 								</Link>
 								<Link
-									href="/#about"
+									href="/#cta"
 									className="relative group"
 								>
-									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300 before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-yellow-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
-										About
-									</span>
-								</Link>
-								<Link
-									href="/contact"
-									className="relative group"
-								>
-									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300 before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-yellow-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
-										Contact
+									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300 before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
+										Try Taabs
 									</span>
 								</Link>
 							</div>
@@ -131,7 +116,7 @@ export default function Footer() {
 							href="/terms-of-service"
 							className="relative group"
 						>
-							<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300 before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-yellow-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
+							<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300 before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
 								Terms of Service
 							</span>
 						</Link>
@@ -139,7 +124,7 @@ export default function Footer() {
 							href="/privacy-policy"
 							className="relative group"
 						>
-							<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300 before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-yellow-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
+							<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300 before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
 								Privacy Policy
 							</span>
 						</Link>
@@ -147,7 +132,7 @@ export default function Footer() {
 							href="/privacy-policy"
 							className="relative group"
 						>
-							<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300 before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-yellow-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
+							<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300 before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
 								Privacy Policy
 							</span>
 						</Link>
