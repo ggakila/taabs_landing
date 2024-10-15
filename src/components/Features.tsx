@@ -95,7 +95,7 @@ export default function Features() {
 						</h3>
 						<p className="">
 							Taabs revolutionizes your Chrome experience by implementing lazy
-							loading for newly opened tabs. This means that inactive tabs won't
+							loading for newly opened tabs. This means that inactive tabs won&apos;t
 							consume valuable resources, allowing your browser to run smoothly
 							and efficiently. Enjoy a more organized workspace as Taabs helps
 							you manage, search, and group your tabs effortlessly.
