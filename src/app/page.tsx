@@ -1,4 +1,4 @@
-import About from "@/components/About";
+import CTA from "@/components/CTA";
 import Features from "@/components/Features";
 import Footer from "@/components/Footer";
 import HowItWorks from "@/components/HowItWorks";
@@ -11,9 +11,10 @@ export default function Home() {
 		<div className="flex flex-col items-center">
 			<Landing />
 			<Features/>
-			<HowItWorks/>
-			<About/>
+			{/* <HowItWorks/> */}
+			
 			<InstallTaabs/>
+			<CTA/>
 			<Footer/>
 		</div>
 	);

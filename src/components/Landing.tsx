@@ -1,11 +1,9 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
-import React, { useEffect, useRef, useState } from "react";
-import { Black_Han_Sans, Calistoga, Comfortaa, Playfair_Display } from "next/font/google";
-import Header from "./Header";
-import { Button } from "./ui/button";
+import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { Calistoga } from "next/font/google";
 
 const calistoga = Calistoga({
 	subsets: ["latin"],

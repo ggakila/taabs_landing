@@ -31,7 +31,6 @@ const sheets = [
 	{ href: "/", name: "Home" },
 	{ href: "/#features", name: "Features" },
 	{ href: "/#howitworks", name: "How it Works" },
-	{ href: "/#about", name: "About" },
 	{ href: "/#install", name: "Install Taabs" },
 	{ href: "/#demo", name: "Demo" },
 ];
@@ -69,11 +68,11 @@ export default function Header() {
 	return (
 		<header
 			ref={headerRef}
-			className={`fixed top-0 left-0 right-0 z-50 transition-transform duration-300 p-5  w-full flex justify-center backdrop-blur-md bg-[#172554] ${
+			className={`fixed top-0 left-0 right-0 z-50 transition-transform duration-300   w-full flex justify-center bg-[#172554] ${
 				isHeaderVisible ? "translate-y-0" : "-translate-y-full"
 			}`}
 		>
-			<div className="container lg:px-20 flex w-full justify-between items-center">
+			<div className="container lg:px-20 p-5 flex w-full justify-between items-center">
 				<div className="flex justify-center text-[16px] text-neutral-100  tracking-tighter font-bold">
 					<h1
 						className={`${comfortaa.className} font-[500] tracking-tight text-[1.5rem] md:text-[2rem]`}
@@ -95,12 +94,12 @@ export default function Header() {
 						>
 							How it Works
 						</Link>
-						<Link
+						{/* <Link
 							href="/#about"
 							className="relative py-2 md:py-3 px-2 text-neutral-100 h-full whitespace-nowrap w-full bg-transparent transition-all duration-400 hover:text-white before:absolute before:left-0 before:bottom-0 before:h-[2px] before:bg-orange-400 before:w-full before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100"
 						>
 							About
-						</Link>
+						</Link> */}
 						<Link
 							href="/#install"
 							className="relative py-2 md:py-3 px-2 text-neutral-100 h-full whitespace-nowrap w-full bg-transparent transition-all duration-400 hover:text-white before:absolute before:left-0 before:bottom-0 before:h-[2px] before:bg-orange-400 before:w-full before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100"
@@ -114,7 +113,7 @@ export default function Header() {
 							Watch Demo
 						</Link>
 					</div>
-					<div className="flex items-center">
+					<div className="flex md:hidden items-center">
 						<Sheet>
 							<SheetTrigger className="group px-3 py-2 rounded-xl relative bg-transparent ">
 								<div className="h-[30px] w-[30px] flex flex-col items-end justify-center gap-[8px]">

@@ -1,6 +1,6 @@
-import { Calistoga } from 'next/font/google';
 import Image from 'next/image';
 import React from 'react'
+import { Calistoga } from 'next/font/google';
 
 const calistoga = Calistoga({
 	subsets: ["latin"],
@@ -10,10 +10,10 @@ const calistoga = Calistoga({
 
 export default function InstallTaabs() {
   return (
-		<div className="container p-5 lg:p-20 flex flex-col gap-10 ">
+		<div id='install' className="container p-5 lg:p-20 flex flex-col gap-10 ">
 			<div className="flex flex-col gap-3">
 				<h1
-					className={`${calistoga.className} text-[2rem] font-semibold tracking-tight`}
+					className={`${calistoga.className} text-[2.4rem] font-semibold tracking-tight`}
 				>
 					Simple Steps to Install and Use Taabs
 				</h1>
