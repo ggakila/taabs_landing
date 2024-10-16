@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { Comfortaa } from "next/font/google";
+import Image from "next/image";
 
 const comfortaa = Comfortaa({
 	subsets: ["latin"],
@@ -27,45 +28,7 @@ export default function Footer() {
 					</div>
 					<div className="flex gap-10 lg:gap-20">
 						<div className="flex flex-col gap-3  items-start text-start">
-							<h3 className="font-semibold text-orange-400">Connect With Us</h3>
-							<div className="flex flex-col gap-2">
-								<Link
-									href="https://www.twitter.com"
-									className="relative group"
-								>
-									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300  before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
-										Twitter
-									</span>
-								</Link>
-								<Link
-									href="https://www.instagram.com"
-									className="relative group"
-								>
-									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300  before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
-										Instagram
-									</span>
-								</Link>
-								<Link
-									href="https://www.linkedin.com"
-									className="relative group"
-								>
-									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300  before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
-										LinkedIn
-									</span>
-								</Link>
-								<Link
-									href="https://www.youtube.com/watch?v=xSujiSkGHfg"
-									className="relative group"
-								>
-									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300  before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
-										YouTube
-									</span>
-								</Link>
-							</div>
-						</div>
-
-						<div className="flex flex-col gap-3  items-start text-start">
-							<h3 className="font-semibold text-orange-400">
+							<h3 className="font-semibold text-orange-400 flex whitespace-nowrap">
 								Quick Navigation
 							</h3>
 							<div className="flex flex-col gap-2">
@@ -103,16 +66,60 @@ export default function Footer() {
 								</Link>
 							</div>
 						</div>
+						<div className="flex flex-col gap-3  items-start text-start">
+							<h3 className="font-semibold text-orange-400 flex whitespace-nowrap">
+								Connect With Us
+							</h3>
+							<div className="flex flex-col gap-2">
+								<Link
+									href="https://www.linkedin.com/in/erick-barasa357-61b0599b/"
+									target="_blank"
+									className="relative group"
+								>
+									<span className="flex gap-1 items-center whitespace-nowrap relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300  before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
+										<div className="relative w-5 h-5">
+											<Image
+												src="/linkedin.png"
+												alt="Taabs Installation guide"
+												fill
+												style={{ objectFit: "cover" }}
+												className="w-full h-full"
+											/>
+										</div>
+										Erick Baraza
+									</span>
+								</Link>
+								<Link
+									href="https://www.linkedin.com/in/haggai-gisore/"
+									target="_blank"
+									className="relative group"
+								>
+									<span className="flex gap-1 items-center whitespace-nowrap relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300  before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
+										<div className="relative w-5 h-5">
+											<Image
+												src="/linkedin.png"
+												alt="Taabs Installation guide"
+												fill
+												style={{ objectFit: "cover" }}
+												className="w-full h-full"
+											/>
+										</div>
+										Haggai Gisore
+									</span>
+								</Link>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div className="flex flex-col md:flex-row gap-2 md::gap-10 w-full justify-between items-center border-t border-t-neutral-500  pt-10 ">
+				<div className="flex flex-col md:flex-row gap-2 md::gap-10 w-full justify-between items-center border-t border-t-neutral-500 text-sm pt-10 ">
 					<div className="flex  gap-2">
 						<p>© Taabs 2024</p>
 						<p>All rights reserved.</p>
 					</div>
-					<div className="flex gap-3">
+					<div className="flex gap-3 ">
 						<Link
-							href="/terms-of-service"
+							href="https://github.com/procode3/taabs?tab=readme-ov-file#terms-of-service"
+							target="_blank"
 							className="relative group"
 						>
 							<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300 before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
@@ -120,15 +127,8 @@ export default function Footer() {
 							</span>
 						</Link>
 						<Link
-							href="/privacy-policy"
-							className="relative group"
-						>
-							<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300 before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
-								Privacy Policy
-							</span>
-						</Link>
-						<Link
-							href="/privacy-policy"
+							href="https://github.com/procode3/taabs?tab=readme-ov-file#privacy-policy"
+							target="_blank"
 							className="relative group"
 						>
 							<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300 before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">
