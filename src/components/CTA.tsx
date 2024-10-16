@@ -14,7 +14,7 @@ export default function CTA() {
 		>
 			<div className="container flex flex-col items-center gap-10 p-10 lg:p-20">
 				<h2
-					className={`${calistoga.className} flex flex-col text-[2.5rem]  w-full max-w-[600px] text-balance text-center  leading-tight text-neutral-800 `}
+					className={`${calistoga.className} flex flex-col text-[2.4rem] md:text-[2.5rem]  w-full md:max-w-[600px] text-center  leading-tight text-neutral-800 `}
 				>
 					Unlock Enhanced Performance and Productivity with Taabs for Chrome.
 				</h2>
@@ -22,14 +22,14 @@ export default function CTA() {
 					<Link
 						href={"https://github.com/procode3/taabs"}
 						target="_blank"
-						className="group text-neutral-100 flex items-center gap-1 border border-transparent  max-w-[220px] rounded-xl py-3 px-6 hover:border-orange-400 hover:bg-[#172554] bg-orange-400 hover:text-neutral-100 transition-all duration-300 ease-in font-[500]"
+						className="group text-neutral-100 flex items-center whitespace-nowrap gap-1 border border-transparent  max-w-[220px] rounded-xl py-3 px-6 hover:border-orange-400 hover:bg-[#172554] bg-orange-400 hover:text-neutral-100 transition-all duration-300 ease-in font-[500]"
 					>
 						Install Taabs
 					</Link>
 					<Link
 						href={"https://www.youtube.com/watch?v=xSujiSkGHfg"}
 						target="_blank"
-						className="group text-neutral-100 flex items-center gap-1 border border-orange-400 max-w-[220px] rounded-xl py-3 px-6 bg-[#172554] hover:bg-orange-400 hover:text-neutral-100 transition-all duration-300 ease-in font-[500]"
+						className="group text-neutral-100 flex items-center whitespace-nowrap gap-1 border border-orange-400 max-w-[220px] rounded-xl py-3 px-6 bg-[#172554] hover:bg-orange-400 hover:text-neutral-100 transition-all duration-300 ease-in font-[500]"
 					>
 						Watch Demo
 					</Link>
