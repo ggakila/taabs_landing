@@ -29,7 +29,6 @@ export default function Footer() {
 						<div className="flex flex-col gap-3  items-start text-start">
 							<h3 className="font-semibold text-orange-400">Connect With Us</h3>
 							<div className="flex flex-col gap-2">
-								
 								<Link
 									href="https://www.twitter.com"
 									className="relative group"
@@ -55,7 +54,7 @@ export default function Footer() {
 									</span>
 								</Link>
 								<Link
-									href="https://www.youtube.com"
+									href="https://www.youtube.com/watch?v=xSujiSkGHfg"
 									className="relative group"
 								>
 									<span className="relative border-b-2 pb-1 border-b-transparent w-full text-neutral-100 transition-all duration-300  before:absolute before:left-0 before:bottom-0 before:w-full before:h-[2px] before:bg-orange-400 before:scale-x-0 before:origin-left before:transition-transform before:duration-300 group-hover:before:scale-x-100">

@@ -33,7 +33,7 @@ export default function InstallTaabs() {
 						/>
 					</div>
 					<h3 className="text-[1.1rem] font-semibold tracking-tighter">
-						Step 1: Install the Extension from Chrome Web Store
+						Step 1: Download the extension files by cloning the Taabs repository on github
 					</h3>
 					<p className="tracking-tight">
 						Clone the Taabs repository to obtain the extension files

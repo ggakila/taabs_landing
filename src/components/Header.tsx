@@ -68,7 +68,7 @@ export default function Header() {
 	return (
 		<header
 			ref={headerRef}
-			className={`fixed top-0 left-0 right-0 z-50 transition-transform duration-300   w-full flex justify-center bg-[#172554] ${
+			className={`fixed top-0 left-0 right-0 z-50 transition-transform duration-300   w-full flex justify-center bg-[#172554] shadow-sm ${
 				isHeaderVisible ? "translate-y-0" : "-translate-y-full"
 			}`}
 		>

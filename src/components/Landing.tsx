@@ -15,11 +15,11 @@ const calistoga = Calistoga({
 export default function Landing() {
 	return (
 		<div className=" p-5 min-h-screen bg-[#172554] w-full flex flex-col items-center justify-center relative">
-			<div className="container lg:px-20 h-full w-full flex flex-col md:flex-row gap-10 lg:gap-20 justify-between items-center relative">
-				<div className="w-full flex flex-col gap-10">
-					<div className="text-white flex flex-col gap-7">
+			<div className="container lg:px-20 h-full w-full flex flex-col md:flex-row gap-5 md:gap-10 lg:gap-20 justify-between items-center relative">
+				<div className="w-full flex flex-col items-center justify-center gap-10">
+					<div className="text-white flex flex-col gap-5">
 						<h2
-							className={`${calistoga.className} flex flex-col text-[3rem]  w-full   leading-tight text-neutral-100 `}
+							className={`${calistoga.className} flex flex-col text-[2rem] md:text-[3rem]  w-full   leading-tight text-neutral-100 `}
 						>
 							Optimize Your Chrome Experience with Taabs
 						</h2>
